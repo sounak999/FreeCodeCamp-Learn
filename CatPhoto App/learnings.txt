@@ -1,0 +1,6 @@
+1. meta is a self-closing tag
+2. using <main> <section> <footer> semantic tags
+3. How to use <figure> tag and use <figcaption> tag
+4. How to use label in two ways -- 
+    i. one is to nest input tags and 
+    ii. use for attribute to link id
