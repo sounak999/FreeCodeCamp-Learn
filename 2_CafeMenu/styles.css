@@ -13,6 +13,16 @@ body {
     margin-right: auto;
   }
   
+  .item p {
+    display: inline-block;
+  }
+  
   .flavor {
     text-align: left;
-  }  
+    width: 49% ;
+  }
+  
+  .price {
+    text-align: right;
+    width: 49% ;
+  }
