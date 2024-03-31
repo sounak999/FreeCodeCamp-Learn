@@ -1,0 +1,10 @@
+1. For the styling of the page to look similar on mobile as it does on a desktop or laptop, you need to add a meta element with a special content attribute.
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+2. To center a div, we set margin-left and margin-right properties to auto.
+
+3. How semantic has been used. Example -> section, article etc.
+
+4. Add a max-width property to the menu class with a value of 500px to prevent it from growing too wide.
+
+5. We can add a fallback value for the font-family by adding another font name separated by a comma. Fallbacks are used in instances where the initial is not found/available.
