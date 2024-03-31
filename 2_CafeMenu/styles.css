@@ -1,5 +1,7 @@
-  body {
+body {
+    /*
     background-color: burlywood;
+    */
   }
   
   h1, h2, p {
@@ -7,6 +9,6 @@
   }
   
   #menu {
+    background-color: burlywood;
     width: 300px;
   }
-  
