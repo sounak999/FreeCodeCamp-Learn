@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thanks for taking out time to fill the form.</p>
+
+    <form action="GET" id="survey-form">
+        <label for="name" id="name-label">Name: </label>
+        <input type="text" name="name" id="name" placeholder="write your name..." required>
+        <label for="email" id="email-label">Email: </label>
+        <input type="email" name="email" id="email" placeholder="write your email..." required>
+        <label for="number" id="number-label">Lucky Number: </label>
+        <input type="number" name="number" id="number" min="13" max="120" placeholder="write your lucky number...">
+        <label for="dropdown">Select Options</label>
+        <select name="dropdown" id="dropdown">
+            <option value="select" disabled selected>Select One From the Dropdown Options...</option>
+            <option value="Option 1" >Option 1</option>
+            <option value="Option 2">Option 2</option>
+        </select>
+
+        <div>
+            <label for="male" class="inline">Male</label>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="female" class="inline">Female</label>
+            <input type="radio" name="gender" id="female" value="female">
+        </div>
+        
+        <div>
+            <input type="checkbox" name="checkbox" id="checkbox" value="filled">
+            <label for="checkbox" class="inline">I hereby declare all the details are filled correctly in my conciousness.</label>
+            <input type="checkbox" name="checkbox2" id="checkbox2" value="terms">
+            <label for="checkbox" class="inline">I agree to the terms & conditions.</label>
+        </div>
+        
+        <label for="textarea">Additional Comments: </label>
+        <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+        <button id="submit"></button>
+    </form>
+</body>
+</html>
